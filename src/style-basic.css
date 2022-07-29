@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;800&display=swap");
+
+text {
+  font-family: "Poppins";
+  font-style: normal;
+}
+#information,
+#product,
+#finish-button,
+#myCar {
+  display: flex;
+}
+#myCar,
+#information {
+  flex-direction: column;
+}
+#product {
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+#finish-button {
+  background-color: #3b74f2;
+  justify-content: center;
+  border-radius: 2vw;
+  align-self: center;
+  color: #fff;
+  border: none;
+}
+
+#image {
+  border: 0.3vw solid #c7c7c7;
+}
+#name {
+  color: #000000;
+}
+#price {
+  color: #a5a5a5;
+}
+
+#finish-button {
+  padding: 3vw;
+  width: 90vw;
+  margin: 4vw 0vw;
+  font-size: 5vw;
+}

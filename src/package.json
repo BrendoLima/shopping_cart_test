@@ -1,0 +1,14 @@
+{
+  "name": "shopping-cart-test",
+  "version": "0.0.0",
+  "description": "A simple example deployed using react-codesandboxer",
+  "main": "index.js",
+  "dependencies": {
+    "next": "12.2.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "latest"
+  },
+  "keywords": []
+}
